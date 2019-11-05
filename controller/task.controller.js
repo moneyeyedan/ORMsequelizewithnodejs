@@ -18,7 +18,9 @@ exports.findAll = (req, res) => {
   Customer.findAll().then(customers => {
     // Send all customers to Client
     res.send(customers);
-  });
+  }).catch(function(error){
+      console.log(error,"error")
+  })
 };
  
 // Find a Customer by Id

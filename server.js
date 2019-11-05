@@ -3,6 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json())
  
+
 const db = require('./models/index');
   
 // force: true will drop the table if it already exists
