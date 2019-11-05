@@ -11,6 +11,8 @@ db.sequelize.sync({force: true}).then(() => {
 });
  
 require('./router/user.route')(app);
+require('./router/task.route')(app);
+require('./router/contest.route')(app);
  
 // Create a Server
 var server = app.listen(8081, function () {
