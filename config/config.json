@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "kamesh333",
+    "database": "development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "kamesh333",
+    "database": "testing",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+ 
+}
